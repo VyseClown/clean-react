@@ -7,7 +7,7 @@ const Router: React.FC = () => {
     <RecoilRoot>
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact  />
+          <Route path="/" exact />
         </Switch>
       </BrowserRouter>
     </RecoilRoot>
