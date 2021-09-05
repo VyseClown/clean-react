@@ -7,7 +7,6 @@ export class RemoteAuthentication {
   ) {}
 
   async auth (): Promise<void> {
-    await this.HttpPostClient.post(this.url)
-    return Promise.resolve()
+    await this.HttpPostClient.post({ url: this.url })
   }
 }
